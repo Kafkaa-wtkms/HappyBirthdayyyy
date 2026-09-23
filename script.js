@@ -82,7 +82,7 @@ async function initBlowDetection() {
       }
       let average = sum / bufferLength;
 
-      if (average > 48) { // Threshold untuk mendeteksi tiupan
+      if (average > 51) { // Threshold untuk mendeteksi tiupan
         blowOutCandles();
       }
 
