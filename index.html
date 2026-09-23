@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>01/10/2026🎉</title>
+  
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@400;600&family=Sacramento&display=swap" rel="stylesheet">
+  
+  <!-- Canvas Confetti CDN -->
+  <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.6.0/dist/confetti.browser.min.js"></script>
+  
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- Audio Elements -->
+  <!-- BGM dimainkan dari awal dan di-loop -->
+  <audio id="bgm" src="CatBgm.mp3" loop></audio>
+  <audio id="sfx-confetti" src="Confetti.mp3"></audio>
+  <audio id="sfx-cheer" src="FnafHorey.mp3"></audio>
+
+  <div class="container">
+    <div class="text-zone">
+      <h1 id="title">Happy Birthday Alyy!</h1>
+      <p id="subtitle">Hurry up make a wish and then <b>blow out the candles!</b></p>
+    </div>
+
+    <!-- Area Kue & Lilin -->
+    <div class="cake-wrapper">
+      <div id="cake" class="cake">
+        <div class="frosting"></div>
+      </div>
+    </div>
+
+    <!-- Tombol Surat -->
+    <button id="open-letter-btn" class="btn hidden">Open It 👀</button>
+  </div>
+
+  <!-- Pop-up Surat Ucapan -->
+  <div id="letter-modal" class="modal hidden">
+    <div class="modal-content">
+      <span id="close-btn" class="close">&times;</span>
+      <h2>Selamat Habede
+        My Loveee ❤️</h2>
+      <div class="letter-body">
+        <p><strong>Selamat ulang tahun</strong><br>Alydia Ratnanggana Aksur!</p>
+        <p>I know you've been through a lot this year, and I just wanted to say that I’m so proud of you for making it this far👏. I know your journey isn't always been easy, but you handled everything so amazingly thats why ur my goat.<br><br>
+           I really reallyy hope all of your dreams and wishes, big or small, many or few, will be very soon to come true & semoga kamu selalu diberi kesehatan secara fisik ataupun mental yaaa. May this year and next year brings you so much happiness and ease in everything you do, enjoy your frickin special day!!!🎉🥳<br>
+          <br>
+          <br><strong>*pro tip:</strong> Today the entire world is yours!!<br>so do whatever u fcking want if it makes you happy!(in a good way of course)</p><p align="center">
+        <p><i>- Sincerly, your beloved boyfriend  </i></p>
+      </div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
